@@ -1,0 +1,56 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+h2{
+    text-align:center;
+} 
+form{
+    padding: 5px;
+    height:550px;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color:aliceblue
+
+}
+label{
+    display:grid
+    margin:2px;
+    font-weight:bold;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 8px;
+    border:1px solid whitesmoke;
+    border-radius: 1px;
+    width: 100%;
+    margin-bottom: 2px;
+
+}
+select{
+    width:100%;
+    padding: 6px;
+    border:1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 9px;
+}
+input[type="submit"]{
+    color: aliceblue;
+    background-color:rgb(161, 156, 234);
+    cursor: pointer;
+
+}
+input[type="submit"]::backdrop{
+    background-color:blueviolet;
+    text-align: center;
+
+}
+.container{
+    width:300px;
+    margin:auto;
+    height:400px;
+}
